@@ -1,0 +1,133 @@
+[
+    {
+        "model": "Products.categories",
+        "fields" : {
+            "name":"Bebidas",
+            "level":1,
+            "sub_level":0,
+            "sub_sub_level":0,
+            "sub_sub_sub_level":0
+            }
+    },
+    {
+        "model": "Products.categories",
+        "fields" : {
+            "name":"Gaseosas",
+            "level":1,
+            "sub_level":1,
+            "sub_sub_level":0,
+            "sub_sub_sub_level":0
+        }
+    },
+    {
+        "model": "Products.categories",
+        "fields" : {
+            "name":"Con azucar",
+            "level":1,
+            "sub_level":1,
+            "sub_sub_level":1,
+            "sub_sub_sub_level":0
+        }
+    },
+    {
+        "model": "Products.categories",
+        "fields" : {
+        "name":"Sin azucar",
+        "level":1,
+        "sub_level":1,
+        "sub_sub_level":2,
+        "sub_sub_sub_level":0
+    }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Desayunos",
+        "level":2,
+        "sub_level": 0,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+    }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake1",
+        "level":2,
+        "sub_level": 1,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+    }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake2",
+        "level":2,
+        "sub_level": 1,
+        "sub_sub_level": 1,
+        "sub_sub_sub_level": 0
+    }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake3",
+        "level":2,
+        "sub_level": 1,
+        "sub_sub_level": 2,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake4",
+        "level":2,
+        "sub_level": 1,
+        "sub_sub_level": 2,
+        "sub_sub_sub_level": 1
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Almuerzos",
+        "level":3,
+        "sub_level": 1,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake5",
+        "level":3,
+        "sub_level": 1,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake6",
+        "level":3,
+        "sub_level": 2,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Vinos",
+        "level":4,
+        "sub_level": 0,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake8",
+        "level":4,
+        "sub_level": 1,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }},
+    {"model": "Products.categories",
+        "fields" : {
+        "name":"Fake9",
+        "level":4,
+        "sub_level": 2,
+        "sub_sub_level": 0,
+        "sub_sub_sub_level": 0
+        }}
+    
+    
+    
+
+]
