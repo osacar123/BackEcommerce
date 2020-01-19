@@ -20,12 +20,16 @@ class LargeResultsSetPagination(PageNumberPagination):
 class RangeFilterBackend(filters.BaseFilterBackend):
  
     def filter_queryset(self, request, queryset, view):
-        params = request.query_params.get('price_range').split('-')
-        if not params:
+        try:
+            params = request.query_params.get('price_range').split('-')
+            if not params:
+                return queryset
+            return queryset.filter(price__range=(params[0],params[1]))
+        except:
             return queryset
 
         
-        return queryset.filter(price__range=(params[0],params[1]))
+        
 
 class ProductList(
                mixins.CreateModelMixin,
