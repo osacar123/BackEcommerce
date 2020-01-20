@@ -43,7 +43,7 @@ class ProductList(
     serializer_class = ProductsSerializer
     pagination_class = LargeResultsSetPagination
     filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter, RangeFilterBackend]
-    filterset_fields = ['quantity','available']
+    filterset_fields = ['quantity','available','sublevel_id']
     search_fields = ['name', 'code']
     ordering_fields = ['price', 'quantity',]
     
